@@ -9,7 +9,7 @@ jobs:
       - run:
           name: Install Dependencies
           command: |
-            apt-get update && apt-get install -y debootstrap squashfs-tools xorriso grub-pc-bin grub-efi-amd64-bin mtools node
+            apt-get update && apt-get install -y debootstrap squashfs-tools xorriso grub-pc-bin grub-efi-amd64-bin mtools nodejs
 
       - run:
           name: Prepare the Chroot Environment
